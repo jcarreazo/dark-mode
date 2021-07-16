@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode</title>
+    <link rel="shortcut icon" href="icons8-moon-phase-50.png" type="image/x-icon">
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="flex flex-col text-2xl font-semibold text-gray-900">
+        <nav class="py-5 flex flex-col items-center bg-blue-200 text-gray-700 hidden">
+            <div class="section1"><span>Home</span></div>
+            <div class="section2"><span>About</span></div>
+            <div class="section3"><span>Projects</span></div>
+            <div class="section4"><span>Contact</span></div>
+        </nav>
+        <div class="header-info flex justify-between items-center flex-row px-5 py-3 bg-blue-100">
+            <box-icon name='menu' size="40px" class=""></box-icon>
+            <span class="title text-3xl">Darkside</span>
+            <div class="dark-mode"><span class="xxx-sm:hidden sm:block">Dark Mode</span>
+                <box-icon type='solid' name='moon'></box-icon><button>0</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="presentation"></section>
+        <section class="home"></section>
+        <section class="about"></section>
+        <section class="projects"></section>
+        <section class="contact"></section>
+    </main>
+</body>
+
+</html>

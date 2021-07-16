@@ -1,4 +1,4 @@
-# dark-mode
+# Dark mode
 
 _A landing page with the dark mode button functionality that switch the main colors of the page._
 

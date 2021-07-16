@@ -1,0 +1,25 @@
+{
+  "name": "dark-mode",
+  "version": "1.0.0",
+  "description": "_A landing page with the dark mode button functionality that switch the main colors of the page._",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcarreazo/dark-mode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcarreazo/dark-mode/issues"
+  },
+  "homepage": "https://github.com/jcarreazo/dark-mode#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.4"
+  }
+}
