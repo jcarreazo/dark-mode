@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.8/css/boxicons.min.css' rel='stylesheet'>
+
 
 </head>
 
@@ -24,21 +26,32 @@
             <div class="section3"><span>Projects</span></div>
             <div class="section4"><span>Contact</span></div>
         </nav>
-        <div class="header-info flex justify-between items-center flex-row px-5 py-3 bg-blue-100">
-            <box-icon name='menu' size="40px" class=""></box-icon>
+        <div class="header-info flex justify-between items-center flex-row px-5 py-3 bg-blue-100  bg-opacity-40">
+            <i class='bx bx-menu text-4xl'></i>
             <span class="title text-3xl">Darkside</span>
-            <div class="dark-mode"><span class="xxx-sm:hidden sm:block">Dark Mode</span>
-                <box-icon type='solid' name='moon'></box-icon><button>0</button>
+            <div class="dark-mode">
+                <span class="xxx-sm:hidden sm:block">Dark Mode</span>
+                <div class="dark-mode_button flex">
+                    <box-icon type='solid' name='moon' class=""></box-icon><input type="checkbox" id="switch" /><label
+                        for="switch" class="mx-1">Toggle</label>
+                </div>
             </div>
         </div>
     </header>
     <main>
-        <section class="presentation"></section>
+        <section class="presentation flex flex-col items-center top-15 justify-center h-96 mt-32">
+            <span class="presentation__title capitalize text-4xl font-bold mb-2 ">
+                custom title here
+            </span>
+            <span class="presentation__subtitle text-xl">
+                Welcome to this website
+            </span>
+        </section>
         <section class="home"></section>
         <section class="about"></section>
         <section class="projects"></section>
         <section class="contact"></section>
     </main>
 </body>
-
+<script src="app.js"></script>
 </html>
