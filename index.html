@@ -20,20 +20,20 @@
 
 <body>
     <header class="flex flex-col text-2xl font-semibold text-gray-900">
-        <nav class="py-5 flex flex-col items-center bg-blue-200 text-gray-700 hidden">
+        <nav id="navbar" class="py-5 flex flex-col items-center bg-blue-200 text-gray-700">
             <div class="section1"><span>Home</span></div>
             <div class="section2"><span>About</span></div>
             <div class="section3"><span>Projects</span></div>
             <div class="section4"><span>Contact</span></div>
         </nav>
-        <div class="header-info flex justify-between items-center flex-row px-5 py-3 bg-blue-100  bg-opacity-40">
-            <i class='bx bx-menu text-4xl'></i>
+        <div class="header-info flex justify-around items-center flex-row  py-3 bg-blue-100  bg-opacity-40">
+            <div class=" "><i id="menu" class=' p-1 rounded-full bx bx-menu text-4xl hover:bg-indigo-100 hover:transition ease-in duration-300'></i></div>
             <span class="title text-3xl">Darkside</span>
             <div class="dark-mode">
-                <span class="xxx-sm:hidden sm:block">Dark Mode</span>
                 <div class="dark-mode_button flex">
+                    <span class="xxx-sm:hidden sm:block">Dark Mode</span>
                     <box-icon type='solid' name='moon' class=""></box-icon><input type="checkbox" id="switch" /><label
-                        for="switch" class="mx-1">Toggle</label>
+                        for="switch" class="ml-2">Toggle</label>
                 </div>
             </div>
         </div>

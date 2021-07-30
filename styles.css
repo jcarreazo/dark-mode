@@ -47,7 +47,7 @@ input[type=checkbox] {
   }
   
   input:checked + label {
-    background: #bada55;
+    background: #da8434;
   }
   
   input:checked + label:after {
@@ -58,3 +58,8 @@ input[type=checkbox] {
   label:active:after {
     width: 25px;
   }
+
+@keyframes menu-move{
+  0%{transform: translateX(00);}
+  100%{transform: translateX(100px);}
+}
